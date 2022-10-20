@@ -141,6 +141,7 @@ class Solution{
     int getMaxSum(Node* &root) 
     {
         pair<int,int> ans = solve(&root); 
+	return max(ans.first, ans.second);
     }
 };
 
