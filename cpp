@@ -151,9 +151,9 @@ int main()
 {
   int t;
   scanf("%d ",&t);
-  while (t- -) 
+  while (t--) 
   {
-        char s; 
+        string s; 
 		getline(cin,s);
 		Node* root = buildTree(s);
 		Solution ob;
